@@ -1,0 +1,45 @@
+body {
+    background-image: url('Visual_Studio_Code_1.35_icon.svg.webp');
+}
+
+h1.nome {
+    color: red; 
+    background-color: cyan; 
+    font-size: 100px;
+}
+
+#item-javascript {
+    font-size: 2em;
+}
+
+ul {
+    color: green;
+    font-weight: bolder;
+}
+
+div {
+    background-color: rgba(255, 0, 0, 0.82); 
+    width: 200px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+div:hover {
+    width: 250px;
+    transition: 0.5s;
+}
+
+ul > li:first-child {
+    color: blueviolet;
+}
+
+li {
+    transition: 0.5s;
+}
+
+li:hover {
+    color: ivory;
+    transition: 0.5s;
+}
+
